@@ -1,0 +1,32 @@
+.square {
+  background-color:#e5e5e5;
+  padding:15px;
+  text-align:center;
+}
+#score{
+  color: red;
+}
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #ffffcc;
+    width: 250px;
+    font-size: 20px;
+    color: #000000;
+    margin: 10px 30px 10px 0px;
+    padding: 10px 10px;
+}
+#progress {
+  color: #000000;
+    font-size: 20px;
+}
+
+/* -----responsive-------- */
+* {
+    box-sizing: border-box;
+  }
+  
+  @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width:100%;
+    }
+  }
